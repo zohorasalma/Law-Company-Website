@@ -11,3 +11,12 @@
    margin-top: -400px;
    bottom: unset!important;
 }
+.ls-card-img
+{
+    width: 72px;
+    height: 72px;
+}
+.ls-card-p{
+    padding-left: 0;
+    padding-right: 0;
+}
