@@ -1,13 +1,79 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+    <title>Legal Solutions Company</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body class="container-md">
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg text-color">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo2.png" alt="Logo" width="160" height="46"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <a class="nav-link active" aria-current="page" href="#">Home </a>
+                        <a class="nav-link" href="#">Services ></a>
+                        <a class="nav-link" href="#">Cases ></a>
+                        <a class="nav-link " href="#">Blogs ></a>
+                        <a class="nav-link me-5 pe-5" href="#">Contact Us ></a>
+                        <button class="btn btn-primary ms-5 primary-clr px-5 b-0">Free Consultation</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-over-img w-50">
+                        <h1 class="display-3 fw-bold">We Provide Effective Legal Solutions</h1>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+
+    </header>
+
+    <main>
+        <section mt-5>
+            <h2 class="text-center fw-bold mt-5">The Legal Section Area</h2>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
