@@ -20,3 +20,16 @@
     padding-left: 0;
     padding-right: 0;
 }
+.slider-img{
+    height: 500px;
+    border-radius: 8px;
+    
+}
+.ls-card-caption{
+    bottom:10rem;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.199);
+  }
