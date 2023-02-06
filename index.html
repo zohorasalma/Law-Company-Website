@@ -34,7 +34,34 @@
                         <a class="nav-link" href="#">Cases ></a>
                         <a class="nav-link " href="#">Blogs ></a>
                         <a class="nav-link me-5 pe-5" href="#">Contact Us ></a>
-                        <button class="btn btn-primary ms-5 primary-clr px-5 b-0">Free Consultation</button>
+                        <!-- <button class="btn btn-primary ms-5 primary-clr px-5 b-0"></button> -->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn primary-clr px-5 text-white ls-btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Free Consultation
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Hello Sir/Mam!</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                       Please Check Our Contact Section For More Details.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -45,13 +72,13 @@
             <div class="carousel-inner ">
                 <div class="carousel-item active ">
                     <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-over-img w-50">
+                    <div class="carousel-caption d-none d-md-block ls-card-caption mx-5 px-5">
                         <h1 class="display-3 fw-bold">We Provide Effective Legal Solutions</h1>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                        <p class="ls-banner">There are many variations of passages of Lorem Ipsum available, but the majority have
                             suffered alteration in some form, by injected humour.</p>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        <form class=" ls-banner d-flex" role="search">
+                            <input class=" form-control me-3 p-3" type="search" placeholder="Search your services" aria-label="Search">
+                            <button class="btn ls-btn primary-clr text-white px-5 fw-bold" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
@@ -200,7 +227,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/slider-1.jpg" class="d-block w-100 slider-img " alt="...">
-                        <div class="carousel-caption d-none d-md-block ls-card-caption">
+                        <div class="carousel-caption ls-card-caption">
                             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
                                 class="bi bi-person border border-4 border-white rounded-circle mb-4"
                                 viewBox="0 0 16 16">
@@ -217,7 +244,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="images/slider-2.jpg" class="d-block w-100 slider-img" alt="...">
-                        <div class="carousel-caption d-none d-md-block ls-card-caption">
+                        <div class="carousel-caption ls-card-caption">
                             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
                                 class="bi bi-person border border-4 border-white rounded-circle mb-4"
                                 viewBox="0 0 16 16">
@@ -234,7 +261,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="images/slider-3.jpg" class="d-block w-100 slider-img" alt="...">
-                        <div class="carousel-caption d-none d-md-block ls-card-caption">
+                        <div class="carousel-caption ls-card-caption">
                             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
                                 class="bi bi-person border border-4 border-white rounded-circle mb-4"
                                 viewBox="0 0 16 16">
@@ -346,8 +373,8 @@
                     </div>
 
                 </div>
-                <div class="col">
-                    <img src="images/faq.png" class="w-75 mx-auto" alt="">
+                <div class="col justify-content-center">
+                    <img src="images/faq.png" class="w-75 " alt="">
                 </div>
 
 
@@ -440,7 +467,7 @@
                                 placeholder="Your Message" rows="4"></textarea>
                         </div>
                         <div class="d-grid gap-2">
-                            <button type="submit" class="btn primary-clr border-0 text-white d-grid fw-bold py-3">Send
+                            <button type="submit" class="btn ls-btn primary-clr border-0 text-white d-grid fw-bold py-3">Send
                                 Message</button>
                         </div>
 
@@ -454,8 +481,8 @@
     </main>
     <!-- footer -->
     <footer class="mt-5 bg-dark py-5 text-white">
-        <div class="row justify-content-md-center py-5">
-            <div class="col-2">
+        <div class="row justify-content-md-center justify-content-center text-center py-5">
+            <div class="col-md-2 col-8 mb-5">
                 <img src="images/logo.png" alt="" srcset="">
 
 
@@ -464,7 +491,7 @@
                     alteration in some form, by injected humour.</p>
 
             </div>
-            <div class="col-2">
+            <div class="col-md-2 col-8 mb-5">
                 <h4>Useful Links</h4>
                 <ul class="ls-li text-color mt-5">
                     <li class="mb-3">Home</li>
@@ -475,7 +502,7 @@
                 </ul>
 
             </div>
-            <div class="col-2 ">
+            <div class="col-md-2 col-8 mb-5">
                 <h4>Contact Now</h4>
                 <div class="text-color mt-5">
                     <p>555 4th 5t NW, Washington <br>
@@ -488,16 +515,19 @@
 
 
             </div>
-            <div class="col-2">
+            <div class="col-md-2 col-8 mb-5">
                 <h4>Subscribe</h4>
                 <p class="text-color mt-5">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
                 <div class="input-group mt-5">
-                    <input type="text" class="form-control p-4 " placeholder="Email Address" aria-label="Email Address" aria-describedby="button-addon2">
-                    <button class="btn primary-clr text-white py-3" type="button" id="button-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill=" #FFFFFF
+                    <input type="text" class="form-control p-4 " placeholder="Email Address" aria-label="Email Address"
+                        aria-describedby="button-addon2">
+                    <button class="btn primary-clr text-white ls-btn py-3" type="button" id="button-addon2"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill=" #FFFFFF
                         " class="bi bi-send" viewBox="0 0 16 16">
-                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
-                      </svg></button>
-                  </div>
+                            <path
+                                d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                        </svg></button>
+                </div>
 
             </div>
 

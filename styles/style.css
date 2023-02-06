@@ -5,6 +5,10 @@
     color: #707070;
     ;
 }
+.ls-btn:hover{
+    background-color:#95580e ;
+
+}
 
 
 .text-over-img {
@@ -27,6 +31,7 @@
 }
 .ls-card-caption{
     bottom:10rem;
+    right: 15%;
 }
 .ls-card-icon{
     width: 40px;
@@ -35,4 +40,20 @@
 .ls-li>li{
     list-style: none;
     margin-bottom: 5rem;
+}
+
+@media screen and (max-width:688px) {
+    .ls-card-caption{
+        bottom: 0;
+    }
+    .ls-banner{
+        visibility:hidden;
+    }
+    .carousal-caption>h1{
+        font-size: 24px;
+        font-weight: 700;
+        top: -12%;
+        color: #FFFF;
+    }
+    
 }
